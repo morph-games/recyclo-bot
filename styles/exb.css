@@ -1,0 +1,45 @@
+body {
+	background: #222;
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+	color: #fff;
+	font-size: calc(0.5vmax + 0.7vmin + 8px);
+	box-sizing: border-box;
+	margin: 0;
+	/* overflow: hidden; */
+}
+canvas {
+	/* margin: calc((96vh - 600px) / 2) auto; */
+	margin: auto;
+	border-radius: 1em;
+}
+
+.overlay {
+	position: absolute;
+	width: calc(100vw - 2em);
+	text-align: center;
+	padding: 1em;
+}
+footer.overlay {
+	opacity: 0.6;
+	display: flex;
+	/* flex-wrap: wrap; */
+	bottom: 1em;
+	justify-content: space-around;
+	font-size: 70%;
+	gap: 2em;
+}
+
+#progress {
+	
+}
+#progress-text {
+	font-size: 120%;
+}
+
+#debug-text {
+	position: absolute;
+	bottom: 0;
+	font-size: 60%;
+	opacity: 0.6;
+}
